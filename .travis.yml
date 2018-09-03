@@ -1,0 +1,13 @@
+
+language: python
+
+cache: pip
+
+python:
+    - 3.6.4
+
+install:
+  - pip install pytest
+
+script:
+  - pytest
