@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-def radix_sort(array, base=10):
+def sort(array, base=10):
     max_digits = int(math.ceil(math.log(max(array) + 1, base))) # O(N)
 
     for iter_round in range(0, max_digits):
