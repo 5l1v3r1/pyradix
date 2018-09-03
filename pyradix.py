@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+import math
 
 def sort(array, base=10):
     max_digits = int(math.ceil(math.log(max(array) + 1, base))) # O(N)
